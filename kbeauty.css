@@ -20,13 +20,11 @@ img{
 	background-color: rgb(229,255,229);
 	font-size: 20px;
 	font-family: Avantgarde, Verdana;
-	/*width: 100%;*/
 	border-style: solid;
-	border-width: 6px;
+	border-width: 1px;
 	border-color: black;
 	text-align: center;
 	display: block;
-
 }
 
 li{
@@ -34,11 +32,14 @@ li{
 	text-align: center;
 }
 
+.container-fluid{padding:8px;}
 
-
+p, h1{
+	margin:10px;
+}
 
 .footer {
-    position: fixed;
+	margin-top: 20px;
     left: 0;
     bottom: 0;
     width: 100%;
