@@ -57,14 +57,15 @@ p, h1{
 
 
 .footer {
+
 	margin-top: 20px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background color: #e5ffe5;
-	background-color: rgb(229,255,229);
-    color: black;
-    text-align: center;
+    background color: #D1EDD1 !important;
+    background-color: rgb( 209, 237, 209);
+    overflow: auto;
+    
 }
 
 @media only screen and (max-width: 768px) {
