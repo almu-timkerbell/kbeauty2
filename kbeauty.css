@@ -12,7 +12,7 @@ body{background color: #F6F5F6;
 h1{
 	font-family: Palatino, Georgia;
 	font-variant: small-caps; 
-	letter-spacing: 3px;
+	letter-spacing: 3px
  }	
 
 
@@ -24,6 +24,8 @@ img{
 }
 
 .navbar{
+	color: #F4FFC5;
+	background-color: #f3ddff;
 	margin: 20px 20px !important;
 	font-size: 20px;
 	font-family: Palatino, Georgia;
@@ -32,6 +34,8 @@ img{
 	border-color: black;
 	text-align: center;
 	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
 
 }
 
@@ -43,7 +47,14 @@ li{
 	text-align: center;
 }
 
-.container-fluid{padding:8px;}
+a:hover {
+	/* color: #a4b265 !important; */
+	color: #4ab265 !important;
+}
+
+.container-fluid{
+	padding:8px;
+}
 
 p, h1{
 	margin:10px;
@@ -51,25 +62,69 @@ p, h1{
 
 .ppal{
 	border: 1px solid black;
-	margin: 10px 20px;
+	margin: 10px 0px 10px 20px;
 	padding: 5px 10px;
+}
+
+.ppal a{
+	color: #4ab265;
+	background-color: #f3ddff;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.aside{
+	margin: 10px 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
 }
 
 
 .footer {
-
-	margin-top: 20px;
+	margin-top: 50px;
+	margin-bottom: 5px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background color: #D1EDD1 !important;
-    background-color: rgb( 209, 237, 209);
-    overflow: auto;
-    
+    background color: #e5ffe5;
+	background-color: rgb(229,255,229);
+    color: black;
+    text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+.footer :hover{
+	color: #4ab265;
+}
+
+@media only screen and (max-width: 425px){
+
+	li{
+		display: block;
+	}
+
+	.navbar-right{
+		display: block;
+	}
+
+	.aside{
+		display: none;
+	}
+
+
+}
+
+ @media only screen and (max-width: 767px) {
    li {
    	display: block;
    }
-}
+} 
+
+
+/* @media only screen and (max-width: 768px) {
+	li {
+		display: inline;
+	}
+ }
+  */
