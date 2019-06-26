@@ -3,11 +3,11 @@
  			 flex-wrap: nowrap;
   }
 
-body{background color: #F6F5F6;
+body{background-color: #F6F5F6;
 	background-color: rgb(246, 245, 246);
 	font-family: Palatino, Georgia;
 
-	}
+}
 
 h1{
 	font-family: Palatino, Georgia;
@@ -75,24 +75,75 @@ p, h1{
 }
 
 .aside{
+	display: grid;
+	
+	/* grid-template: 200px 50px / 200px;
+	grid-template-areas: "searchBar seacrhButton"
+						"text"; */
 	margin: 10px 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 	font-size: 12px;
+	grid-template-areas: "search search"
+												"text text";
+	grid-template-columns: 250px 50px;
+	
+}
+
+.aside p{
+	width: 250px;
+	grid-area: text;
+}
+
+.searchBar{
+	margin-left: 10px;
+	width: 250px;
+	grid-area: search;
+	/* width: 200px; */
+	/* grid-area: searchBar; */
+}
+
+.searchButton{
+	/* display: inline; */
+	grid-area: search;
+	justify-self: right;
+	width: 50px;
+	/* grid-area: searchButton; */
 }
 
 
 .footer {
+	display: grid;
+		/* justify-content: center; */
 	margin-top: 50px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background color: #e5ffe5;
-	background-color: rgb(229,255,229);
+    /* background color: #e5ffe5;
+		background-color: rgb(229,255,229); */
     color: black;
-    text-align: center;
+	text-align: center;
+	grid-template-areas: "left right";
 }
+
+.footerTerms{
+	grid-area: left;
+}
+
+.footerContact{
+	grid-area: right;
+}
+
+/* 
+.footerText{
+	grid-template-columns: 50% 50%;
+
+}
+
+.footerText{
+	margin-bottom: 2em;
+} */
 
 .footer :hover{
 	color: #4ab265;
