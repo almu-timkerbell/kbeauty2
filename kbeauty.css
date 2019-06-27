@@ -97,7 +97,7 @@ p, h1{
 
 .searchBar{
 	margin-left: 10px;
-	width: 250px;
+	width: 200px;
 	grid-area: search;
 	/* width: 200px; */
 	/* grid-area: searchBar; */
@@ -108,6 +108,7 @@ p, h1{
 	grid-area: search;
 	justify-self: right;
 	width: 50px;
+	grid-column: 1;
 	/* grid-area: searchButton; */
 }
 
