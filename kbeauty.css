@@ -95,9 +95,6 @@ p, h1{
 	grid-area: text;
 }
 
-.searchBar{
-	margin-left: 10px;
-	width: 200px;
 	grid-area: search;
 	/* width: 200px; */
 	/* grid-area: searchBar; */
