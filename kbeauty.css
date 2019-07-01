@@ -169,9 +169,20 @@ p, h1{
 
  @media only screen and (max-width: 767px) {
    li {
-   	display: block;
-   }
+		 display: block;
+		 
+	 }
+
+	 .aside{
+		display: none;
+	}
 } 
+
+@media only screen and (min-width: 768px) {
+	.search{
+		display: none;
+	}
+}
 
 
 /* @media only screen and (max-width: 768px) {
