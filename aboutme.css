@@ -18,6 +18,11 @@
 		#bottom { bottom: 0; }
 
 
+#container{
+	display: flex;
+	/* justify-content: space-between; */
+}
+
 body{
     /* margin: 20px; */
     /* border: 3px black solid;  */
@@ -30,6 +35,24 @@ body{
     border: 3px black solid; 
     
 } */
+
+ 
+img{
+	justify-content: start;
+	max-width: 100px;
+	max-height: 100px;
+	margin: 0px;
+	padding: 0px;	
+}
+
+h1{
+	/* display: inline;
+	justify-content: center; */
+	margin: auto;
+	font-family: Palatino, Georgia;
+	font-variant: small-caps; 
+	letter-spacing: 3px
+ }	
 
 .primerP{
     padding-top: 2%;
