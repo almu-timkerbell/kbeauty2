@@ -6,7 +6,53 @@
 body{background-color: #F6F5F6;
 	background-color: rgb(246, 245, 246);
 	font-family: Palatino, Georgia;
+	
 
+}
+
+/* .logo{
+	perspective: 50px;
+} */
+	
+
+.logo .img{
+	/* width: 40px;
+	height: 40px; */
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-image: url("mapamundi1.jpeg");
+	margin-left: 25px;
+	margin-top: 10px;
+	animation-name: rotacion;
+	animation-duration: 5s;
+	/* transition-duration: 20s;
+	transition-delay: 1s; */
+	 animation-delay: 1s;
+	animation-iteration-count: 2; 
+	background-position: right top;
+	transform: translateZ(50px);
+	animation-timing-function: linear;
+	/* animation-direction: reverse; */
+}
+
+/* @keyframes rotacion{
+	from{
+		transform: rotate3d(0 , 0 , 0, 0deg);
+	}
+	to{
+		transform: rotate3d(0, 2, 0, 360deg);
+	}
+	
+} */
+
+@keyframes rotacion{
+	from {
+		background-position: left center;
+}
+to {
+		background-position: right top;
+}
 }
 
 h1{
@@ -95,21 +141,37 @@ p, h1{
 	grid-area: text;
 }
 
+.search{
+	display: flex;
+
+}
+
 .searchBar{
-	margin-left: 10px;
+	/* margin-left: 10px;
 	width: 200px;
-	grid-area: search;
+	grid-area: search; */
 	/* width: 200px; */
 	/* grid-area: searchBar; */
+	width: 250px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: none;
+	
+
+
 }
 
 .searchButton{
 	/* display: inline; */
-	grid-area: search;
+	/* grid-area: search;
 	justify-self: right;
 	width: 50px;
-	grid-column: 1;
+	grid-column: 1; */
 	/* grid-area: searchButton; */
+	color: black;
+	display: none;
+	/* background-color: #4ab265; */
 }
 
 
@@ -178,11 +240,11 @@ p, h1{
 	}
 } 
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 	.search{
 		display: none;
 	}
-}
+} */
 
 
 /* @media only screen and (max-width: 768px) {
