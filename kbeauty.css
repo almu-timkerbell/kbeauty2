@@ -178,15 +178,10 @@ h2{
 }
 
 .searchButton{
-	/* display: inline; */
-	/* grid-area: search;
-	justify-self: right;
-	width: 50px;
-	grid-column: 1; */
-	/* grid-area: searchButton; */
+
 	color: black;
 	display: none;
-	/* background-color: #4ab265; */
+	
 }
 
 
