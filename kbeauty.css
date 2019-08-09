@@ -145,9 +145,9 @@ h2{
 	padding-left: 15px;
 	padding-right: 15px;
 	font-size: 12px;
-	grid-template-areas: "search search"
+	/* grid-template-areas: "search search"
 												"text text";
-	grid-template-columns: 250px 50px;
+	grid-template-columns: 250px 50px; */
 	
 }
 
