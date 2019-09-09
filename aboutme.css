@@ -69,7 +69,7 @@ p{
     margin: 20px; */
     /* border: 2px black solid;  */
 
-} */
+
 
 #container{
 	flex-wrap: nowrap;
@@ -81,17 +81,27 @@ font-family:  'Handlee' , /*'Indie Flower';*/
 
 }
 
-.row{
+/* .row{
 position: relative;
 
-}
+} */
+
+/* .row{
+	display: grid;
+	grid-template-columns: 20% 80%;
+} */
+
+
 
 /* .logo{
 perspective: 50px;
 } */
 
+/* .row{
+	display: inline;
+} */
 
-.logo .img{
+.img{
 /* width: 40px;
 height: 40px; */
 width: 150px;
@@ -180,9 +190,9 @@ a:hover {
 color: #4ab265 !important;
 }
 
-.centered{
+/* .centered{
 	font-size: 1.5em;
-}
+} */
 
 
 .search{
@@ -232,12 +242,22 @@ color: #4ab265 !important;
 @media only screen and (max-width: 425px){
 
 	li{
-		display: block;
+		display: block;}
 	}
 
 @media only screen and (max-width: 767px) {
 
 	li {
-			  display: block;
-			  
+		  display: block;		  
 	}
+
+	.img{
+		display: none;
+	}
+
+	h1{
+		position: relative;
+		top: 10px;
+		left: 8%;
+	}
+}
