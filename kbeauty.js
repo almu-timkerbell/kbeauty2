@@ -2,6 +2,7 @@
 var searchText = document.getElementById('search');
 var btn = document.getElementById('btn');
 var searchBar = document.getElementById('searchBar');
+var containerDeLaSearchBar = document.getElementById('container-search-bar')
 
 var d = document.getElementById("titulo");
 d.addEventListener("mouseover", desplegar);
@@ -19,6 +20,9 @@ function originalTitle()
 d.innerHTML = "Korean Original Beauty";
 }
 
+
+
+
 // searchText.addEventListener('click', (event) =>{
 //     btn.style.display = 'inline'; 
 //     searchBar.style.display = 'inline';
@@ -28,10 +32,7 @@ d.innerHTML = "Korean Original Beauty";
 // });
 
 searchText.addEventListener('click', (event) =>{
-    $(this).toggleClass("search"[true]);
-    // searchBar.style.display = 'inline';
-    // searchText.style.display = 'none';
-    
-    
+    containerDeLaSearchBar.classList.toggle('hidden');
+      
 });
 
