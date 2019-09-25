@@ -18,58 +18,6 @@
 		#bottom { bottom: 0; }
 
 
-/* #container{
-	display: flex; */
-	/* justify-content: space-between; */
-
-
-/* body{
-    /* margin: 20px; */
-    /* border: 3px black solid;  */
-    /* background-color: #f3ddff; */
-
-
-/* .border{
-    height: auto;
-    width: auto;
-    border: 3px black solid; 
-    
-} */
-
-
- 
-/* img{
-	justify-content: start;
-	max-width: 100px;
-	max-height: 100px;
-	margin: 0px;
-	padding: 0px;	
-} */
-
-/* h1{
-	/* display: inline;
-	justify-content: center; */
-	/* margin: auto;
-	font-family: Palatino, Georgia;
-	font-variant: small-caps; 
-	letter-spacing: 3px
- }	 */
-
-/* .primerP{
-    padding-top: 2%;
-
-}
-
-p{
-
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;  */
-    /* padding: 2%;
-    margin: 20px; */
-    /* border: 2px black solid;  */
-
-
 
 #container{
 	flex-wrap: nowrap;
@@ -210,7 +158,7 @@ color: #4ab265 !important;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 5px;
-	display: none;
+	/* display: none; */
 }
 
 .searchBar-click{
@@ -220,12 +168,13 @@ color: #4ab265 !important;
 .searchButton{
 
 	color: black;
-	display: none;
+	/* display: none; */
 	
 }
 
 .text{
-	margin:10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding: 10px;
 
 }
@@ -233,6 +182,31 @@ color: #4ab265 !important;
 .primerP{
 	text-align: center;
 	font-size: larger;
+}
+
+.footer {
+	display: grid;
+	margin-top: 50px;
+	margin-bottom: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+	text-align: center;
+	grid-template-areas: "left right";
+}
+
+.footerTerms{
+	grid-area: left;
+}
+
+.footerContact{
+	grid-area: right;
+}
+
+
+.footer :hover{
+	color: #4ab265;
 }
 
 

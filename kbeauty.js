@@ -21,16 +21,6 @@ d.innerHTML = "Korean Original Beauty";
 }
 
 
-
-
-// searchText.addEventListener('click', (event) =>{
-//     btn.style.display = 'inline'; 
-//     searchBar.style.display = 'inline';
-//     searchText.style.display = 'none';
-    
-    
-// });
-
 searchText.addEventListener('click', (event) =>{
     containerDeLaSearchBar.classList.toggle('hidden');
       
