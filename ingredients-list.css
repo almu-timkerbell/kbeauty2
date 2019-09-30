@@ -31,6 +31,10 @@ transform: translateZ(50px);
 animation-timing-function: linear;
 }
 
+.principal_section {
+	margin-left: 20px;
+}
+
 
 @keyframes rotacion{
 from {
