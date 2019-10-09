@@ -1,84 +1,36 @@
-
-#top, #bottom, #left, #right {
-	background: black;
-	position: fixed;
-	}
-#left, #right {
-		top: 0; bottom: 0;
-		width: 5px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-#top, #bottom {
-		left: 0; right: 0;
-		height: 5px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-
-
-
 #container{
-	flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 body{background-color: #F6F5F6;
 background-color: rgb(246, 245, 246);
-font-family:  'Handlee' , /*'Indie Flower';*/
+font-family:  'Handlee' ;
 
 }
 
-/* .row{
+.row{
 position: relative;
 
-} */
+}
 
-/* .row{
-	display: grid;
-	grid-template-columns: 20% 80%;
-} */
+.logo .img{
 
-
-
-/* .logo{
-perspective: 50px;
-} */
-
-/* .row{
-	display: inline;
-} */
-
-.img{
-/* width: 40px;
-height: 40px; */
 width: 150px;
 height: 150px;
 border-radius: 50%;
-background-image: url("mapamundi1.jpeg");
+background-image: url('../img/mapamundi1.jpeg');
 margin-left: 25px;
 margin-top: 10px;
 animation-name: rotacion;
 animation-duration: 5s;
-/* transition-duration: 20s;
-transition-delay: 1s; */
+
 animation-delay: 1s;
 animation-iteration-count: 2; 
 background-position: right top;
 transform: translateZ(50px);
 animation-timing-function: linear;
-/* animation-direction: reverse; */
 }
 
-/* @keyframes rotacion{
-from{
-transform: rotate3d(0 , 0 , 0, 0deg);
-}
-to{
-transform: rotate3d(0, 2, 0, 360deg);
-}
-
-} */
 
 @keyframes rotacion{
 from {
@@ -90,7 +42,6 @@ background-position: right top;
 }
 
 h1{
-/* font-family: Palatino, Georgia; */
 font-family: 'Indie Flower' ;
 font-variant: small-caps; 
 letter-spacing: 3px;
@@ -138,10 +89,9 @@ a:hover {
 color: #4ab265 !important;
 }
 
-/* .centered{
-	font-size: 1.5em;
-} */
-
+.container-fluid{
+padding:8px;
+}
 
 .search{
 	display: flex;
@@ -149,16 +99,12 @@ color: #4ab265 !important;
 }
 
 .searchBar{
-	/* margin-left: 10px;
-	width: 200px;
-	grid-area: search; */
-	/* width: 200px; */
-	/* grid-area: searchBar; */
+
 	width: 250px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 5px;
-	/* display: none; */
+	
 }
 
 .searchBar-click{
@@ -168,21 +114,16 @@ color: #4ab265 !important;
 .searchButton{
 
 	color: black;
-	/* display: none; */
 	
 }
 
-.text{
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px;
-
+.alphabet_container{
+    margin-left: 22px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
-.primerP{
-	text-align: center;
-	font-size: larger;
-}
 
 .footer {
 	display: grid;
@@ -204,34 +145,46 @@ color: #4ab265 !important;
 	grid-area: right;
 }
 
-
 .footer :hover{
 	color: #4ab265;
 }
 
-
-
-
-
 @media only screen and (max-width: 425px){
 
 	li{
-		display: block;}
+		display: block;
 	}
 
-@media only screen and (max-width: 767px) {
-
-	li {
-		  display: block;		  
+	.navbar-right{
+		display: block;
 	}
 
-	.img{
+	.aside{
 		display: none;
 	}
 
-	h1{
-		position: relative;
-		top: 10px;
-		left: 8%;
-	}
+
 }
+
+ @media only screen and (max-width: 767px) {
+   li {
+		 display: block;
+		 
+	 }
+
+	 .aside{
+		display: none;
+	}
+
+	.logo{
+		display: none;
+	}
+
+
+h1{
+	position: relative;
+	top:0;
+	left: 10%;
+}
+
+ } 

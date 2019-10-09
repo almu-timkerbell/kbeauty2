@@ -18,7 +18,7 @@ position: relative;
 width: 150px;
 height: 150px;
 border-radius: 50%;
-background-image: url("mapamundi1.jpeg");
+background-image: url("../img/mapamundi1.jpeg");
 margin-left: 25px;
 margin-top: 10px;
 animation-name: rotacion;
@@ -117,11 +117,22 @@ padding:8px;
 	
 }
 
-.alphabet_container{
-    margin-left: 22px;
+h2{
     text-align: center;
-    font-size: 25px;
-    letter-spacing: 2px;
+}
+
+.warning{
+    text-align: center;
+}
+
+.listoflinks{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.listoflinks a{
+    font-size: 1.3em;
 }
 
 
@@ -178,13 +189,12 @@ padding:8px;
 
 	.logo{
 		display: none;
+    }
+    
+    h1{
+		position: relative;
+		top:0;
+		left: 10%;
 	}
 } 
 
-h1{
-	position: relative;
-	top:0;
-	left: 10%;
-}
-
-} 
