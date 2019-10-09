@@ -135,6 +135,18 @@ h2{
     font-size: 1.3em;
 }
 
+/* .ebay-links{
+	margin-y
+} */
+
+.ebay-links{
+
+	margin-top: -20px;
+}
+
+.ebay-links a{
+	font-size: 0.90em;
+}
 
 .footer {
 	display: grid;
