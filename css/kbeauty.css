@@ -25,7 +25,7 @@ body{background-color: #F6F5F6;
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	background-image: url("mapamundi1.jpeg");
+	background-image: url("../img/mapamundi1.jpeg");
 	margin-left: 25px;
 	margin-top: 10px;
 	animation-name: rotacion;
