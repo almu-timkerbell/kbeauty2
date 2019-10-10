@@ -1,53 +1,16 @@
 
-#top, #bottom, #left, #right {
-	background: black;
-	position: fixed;
-	}
-#left, #right {
-		top: 0; bottom: 0;
-		width: 5px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-#top, #bottom {
-		left: 0; right: 0;
-		height: 5px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-
-
-
 #container{
 	flex-wrap: nowrap;
 }
 
-body{background-color: #F6F5F6;
+body{
+
+background-color: #F6F5F6;
 background-color: rgb(246, 245, 246);
-font-family:  'Handlee' , /*'Indie Flower';*/
+font-family:  'Handlee'; /*'Indie Flower';*/
 
 }
 
-/* .row{
-position: relative;
-
-} */
-
-/* .row{
-	display: grid;
-	grid-template-columns: 20% 80%;
-} */
-
-
-
-/* .logo{
-perspective: 50px;
-} */
-
-/* .row{
-	display: inline;
-} */
 
 .img{
 /* width: 40px;
@@ -138,9 +101,9 @@ a:hover {
 color: #4ab265 !important;
 }
 
-/* .centered{
-	font-size: 1.5em;
-} */
+.container-fluid{
+	padding:8px;
+	}
 
 
 .search{
@@ -172,10 +135,17 @@ color: #4ab265 !important;
 	
 }
 
+h2{
+	text-align: center;
+}
+
 .text{
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 10px;
+	font-family: 'Handlee';
+	font-size: 17px;
+
 
 }
 
@@ -183,6 +153,8 @@ color: #4ab265 !important;
 	text-align: center;
 	font-size: larger;
 }
+
+
 
 .footer {
 	display: grid;
