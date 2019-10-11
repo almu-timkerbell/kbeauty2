@@ -82,7 +82,8 @@ img{
 .navbar{
 	color: #F4FFC5;
 	background-color: #f3ddff;
-	margin: 20px 20px !important;
+	/* margin: 20px 20px !important; */
+	margin: 25px 22px 20px 30px;
 	font-size: 20px;
 	font-family: 'Handlee';
 	border-style: solid;
@@ -137,17 +138,10 @@ h2{
 
 .aside{
 	display: grid;
-	
-	/* grid-template: 200px 50px / 200px;
-	grid-template-areas: "searchBar seacrhButton"
-						"text"; */
 	margin: 10px 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 	font-size: 12px;
-	/* grid-template-areas: "search search"
-												"text text";
-	grid-template-columns: 250px 50px; */
 	
 }
 
