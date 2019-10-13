@@ -3,13 +3,14 @@
  			 flex-wrap: nowrap;
   }
 
-body{background-color: #F6F5F6;
+body{
+	background-color: #F6F5F6;
 	background-color: rgb(246, 245, 246);
 	font-family:  'Handlee' , /*'Indie Flower';*/
 
 }
 
-.row{
+.row1{
 	position: relative;
 	
 }
@@ -99,6 +100,7 @@ img{
 .navbar :any-link{
 	color: black;
 }
+
 li{
 	display: inline;
 	text-align: center;
@@ -117,10 +119,20 @@ a:hover {
 	margin:10px;
 } */
 
+.wrapper{
+	display: grid;
+	grid-template-columns:  2fr 1fr;
+	margin-left: 10px;
+}
+
 .ppal{
 	border: 1px solid black;
+	border-radius: 5px;
 	margin: 10px 0px 10px 20px;
 	padding: 5px 10px;
+	
+	/* display: grid; */
+
 }
 
 .ppal a{
@@ -137,11 +149,12 @@ h2{
 }
 
 .aside{
-	display: grid;
+	/* display: grid; */
 	margin: 10px 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 	font-size: 12px;
+	margin: 10px 10px 0px 50px;
 	
 }
 
@@ -238,6 +251,14 @@ h2{
    li {
 		 display: block;
 		 
+	 }
+
+	 .wrapper{
+		display: block;
+	 }
+
+	 .ppal{
+		 margin-right: 20px;
 	 }
 
 	 .aside{
