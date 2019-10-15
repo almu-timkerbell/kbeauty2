@@ -38,15 +38,6 @@ body{
 	/* animation-direction: reverse; */
 }
 
-/* @keyframes rotacion{
-	from{
-		transform: rotate3d(0 , 0 , 0, 0deg);
-	}
-	to{
-		transform: rotate3d(0, 2, 0, 360deg);
-	}
-	
-} */
 
 @keyframes rotacion{
 	0%{
@@ -66,14 +57,14 @@ body{
 		
  }
 
- 100%{
+ /* 100%{
 	 /* display: none; */
 	 /* opacity: 0; */
 	 /* transform: translateY(-3000px); */
-}
+/* } */ 
 }
 
-.logo img{
+/* .logo img{
 	width: 100px;
 	height: 100px;
 }
@@ -81,7 +72,7 @@ body{
 .logo{
 	width: 100px;
 	height: 100px;
-}
+} */
 
 
 h1{
