@@ -87,12 +87,21 @@ h1{
 
  }	
 
+ .buttonHome{
+	 border: 0;
+	 padding: 0;
+ }
 
-img{
+.buttonHome img{
 	/* max-width: 100px;
 	max-height: 100px; */
 	margin: 0px;
 	padding: 0px;	
+	background-color: #F6F5F6!important;
+	animation-name: bote;
+	animation-duration: 3s;
+	transform: skew(45deg);
+
 }
 
 .navbar{
@@ -184,16 +193,11 @@ h2{
 }
 
 .searchBar{
-	/* margin-left: 10px;
-	width: 200px;
-	grid-area: search; */
-	/* width: 200px; */
-	/* grid-area: searchBar; */
+
 	width: 250px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 5px;
-	/* display: none; */
 }
 
 .searchBar-click{
@@ -203,7 +207,6 @@ h2{
 .searchButton{
 
 	color: black;
-	/* display: none; */
 	
 }
 
