@@ -28,12 +28,12 @@ body{
 	margin-left: 25px;
 	margin-top: 10px;
 	animation-name: rotacion;
-	animation-duration: 3s;
+	animation-duration: 5s;
   animation-delay: 1s;
 	animation-iteration-count: 1; 
 	background-position: right top;
 	transform: translateZ(50px);
-	animation-timing-function: linear;
+	animation-timing-function: ease-out;
 	transform: translateY(-3000px);
 	/* animation-direction: reverse; */
 }
@@ -43,38 +43,51 @@ body{
 	0%{
 		background-position: left center;
 		transform: translateY(0px);
+	}
+	
+	50%{
+		background-position: right top;
+		transform: scale(1.2);
+
 }
 
- 75%{
-	 background-position: right top;
+75%{
+	background-position: right top;
 	 transform: translateY(0px);
-	 /* opacity: 0.5; */
+	 transform: scale(1.5);
+	 opacity: 0.5;
 	 
 	}
 	
 	99%{
 		transform: translateY(0px);
+		opacity: 0;
 		
  }
 
- /* 100%{
-	 /* display: none; */
-	 /* opacity: 0; */
-	 /* transform: translateY(-3000px); */
-/* } */ 
 }
 
-/* .logo img{
-	width: 100px;
-	height: 100px;
+
+
+.buttonHome img{
+	/* max-width: 100px;
+	max-height: 100px; */
+	margin: 0px;
+	padding: 0px;	
+	background-color: #F6F5F6!important;
+	animation-name: bote;
+	animation-duration: 3s;
+
 }
 
-.logo{
-	width: 100px;
-	height: 100px;
-} */
+keyframes bote{
+	0%{
+		
+	}
+	100%{
 
-
+	}
+}
 h1{
 	/* font-family: Palatino, Georgia; */
 	font-family: 'Indie Flower' ;
@@ -87,22 +100,7 @@ h1{
 
  }	
 
- .buttonHome{
-	 border: 0;
-	 padding: 0;
- }
 
-.buttonHome img{
-	/* max-width: 100px;
-	max-height: 100px; */
-	margin: 0px;
-	padding: 0px;	
-	background-color: #F6F5F6!important;
-	animation-name: bote;
-	animation-duration: 3s;
-	transform: skew(45deg);
-
-}
 
 .navbar{
 	color: #F4FFC5;
