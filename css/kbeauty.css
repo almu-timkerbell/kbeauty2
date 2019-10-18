@@ -12,6 +12,7 @@ body{
 
 .row1{
 	position: relative;
+	max-height: 150px;
 	
 }
 
@@ -20,9 +21,7 @@ body{
 } */
 	
 
-.animacion .img{
-	/* width: 40px;
-	height: 40px; */
+.animacion{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
@@ -30,46 +29,109 @@ body{
 	margin-left: 25px;
 	margin-top: 10px;
 	animation-name: rotacion;
-	animation-duration: 3s;
-	/* transition-duration: 20s;
-	transition-delay: 1s; */
-	 animation-delay: 1s;
+	animation-duration: 5s;
+    animation-delay: 1s;
 	animation-iteration-count: 1; 
 	background-position: right top;
 	transform: translateZ(50px);
-	animation-timing-function: linear;
+	animation-timing-function: ease-out;
+	transform: translateY(-3000px);
 	/* animation-direction: reverse; */
 }
 
-/* @keyframes rotacion{
-	from{
-		transform: rotate3d(0 , 0 , 0, 0deg);
-	}
-	to{
-		transform: rotate3d(0, 2, 0, 360deg);
-	}
-	
-} */
 
 @keyframes rotacion{
-	from {
+	0%{
 		background-position: left center;
-}
-to {
+		transform: translateY(0px);
+	}
+	
+	50%{
 		background-position: right top;
-}
+		/* transform: scale(1.2); */
+
 }
 
-.logo img{
-	width: 100px;
-	height: 100px;
+60%{
+
+    background-position: right top;
+     transform: translateY(0px);
+     /* transform: scale(1.3); */
+     animation-timing-function: linear;
+    }
+    
+    70%{
+        background-position: right top;
+        transform: translateY(0px);
+        /* transform: scale(1.4); */
+        animation-timing-function: linear;
+        
+    }
+    
+    75%{
+        background-position: right top;
+        transform: translateY(0px);
+        /* transform: scale(1.5); */
+        /* opacity: 0.5; */
+        animation-timing-function: linear;
+        
+    }
+    
+    80%{
+        background-position: right top;
+        transform: translateY(0px);
+        transform: scale(1.5);
+        opacity: 0.8;
+        animation-timing-function: linear;
+    }
+	
+	99%{
+		transform: translateY(0px);
+		opacity: 0;
+		transform: scale(1.5);
+		
+ }
+
+ 100%{
+	
+
+ }
+
 }
 
-.logo{
-	width: 100px;
-	height: 100px;
+.buttonHome{
+	 /* background-image: url("../img/img5.jpg"); */
+	/* cursor: pointer;  */
+	width: 150px;
+	height: 150px;
+	margin: 0px;
+  padding: 0px;	
+  position: relative;
+  top: -155px;
+	background-color: #F6F5F6!important;
+	animation-name: bote;
+	animation-duration: 10s;
+
 }
 
+@keyframes bote{
+	0%{
+        opacity: 0;
+		
+    }
+    50%{
+        opacity: 0;
+    }
+
+	100%{
+        opacity: 1;
+
+	}
+}
+
+.buttonHome a{
+	cursor: pointer;
+}
 
 h1{
 	/* font-family: Palatino, Georgia; */
@@ -84,12 +146,6 @@ h1{
  }	
 
 
-img{
-	max-width: 100px;
-	max-height: 100px;
-	margin: 0px;
-	padding: 0px;	
-}
 
 .navbar{
 	color: #F4FFC5;
@@ -180,16 +236,11 @@ h2{
 }
 
 .searchBar{
-	/* margin-left: 10px;
-	width: 200px;
-	grid-area: search; */
-	/* width: 200px; */
-	/* grid-area: searchBar; */
+
 	width: 250px;
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 5px;
-	/* display: none; */
 }
 
 .searchBar-click{
@@ -199,7 +250,6 @@ h2{
 .searchButton{
 
 	color: black;
-	/* display: none; */
 	
 }
 
@@ -266,6 +316,14 @@ h2{
 
 	 .wrapper{
 		display: block;
+	 }
+
+	 .animacion{
+		 display: none;
+	 }
+
+	 .buttonHome{
+		 display: none;
 	 }
 
 	 .ppal{
