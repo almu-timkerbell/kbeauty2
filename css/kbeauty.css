@@ -30,7 +30,7 @@ body{
 	margin-top: 10px;
 	animation-name: rotacion;
 	animation-duration: 5s;
-    animation-delay: 1s;
+  animation-delay: 1s;
 	animation-iteration-count: 1; 
 	background-position: right top;
 	transform: translateZ(50px);
@@ -100,15 +100,17 @@ body{
 }
 
 .buttonHome{
-	 /* background-image: url("../img/img5.jpg"); */
-	/* cursor: pointer;  */
-	width: 150px;
-	height: 150px;
+
+	width: 100px;
+	height: 100px;
 	margin: 0px;
-  padding: 0px;	
+	padding: 0px;	
+	border: none;
+	background: none;
   position: relative;
-  top: -155px;
-	background-color: #F6F5F6!important;
+	top: -130px;
+	left: 20px;
+	/* background-color: #F6F5F6!important; */
 	animation-name: bote;
 	animation-duration: 10s;
 
@@ -128,6 +130,14 @@ body{
 
 	}
 }
+
+.buttonHome img{
+	max-width: 100px;
+  max-height: 100px;
+  margin: 0px;
+  padding: 0px;	
+}
+
 
 .buttonHome a{
 	cursor: pointer;
