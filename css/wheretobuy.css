@@ -186,14 +186,26 @@ h2{
 		display: none;
 	}
 
+	.animacion{
+		display: none;
+	}
+
+	.buttonHome{
+		display: none;
+	}
+
+	.img{
+		display: none;
+	}
+
 	.logo{
 		display: none;
     }
     
     h1{
 		position: relative;
-		top:0;
-		left: 10%;
+		top: 10px;
+		left: 8%;
 	}
 } 
 
