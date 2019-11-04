@@ -12,7 +12,7 @@ body{
 
 .row1{
 	position: relative;
-	max-height: 150px;
+	max-height: 140px;
 	
 }
 
@@ -109,7 +109,7 @@ body{
 	background: none;
   position: relative;
 	top: -130px;
-	left: 20px;
+	left: 15px;
 	/* background-color: #F6F5F6!important; */
 	animation-name: bote;
 	animation-duration: 10s;
@@ -150,7 +150,7 @@ h1{
 	letter-spacing: 3px;
 	display: inline;
 	position: absolute;
-	top: 50px;
+	top: 40px;
 	left: 25%;
 
  }	
