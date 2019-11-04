@@ -225,6 +225,11 @@ h2{
 	font-family: 'Indie Flower';
 }
 
+.imgprimera img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
 .aside{
 	/* display: grid; */
 	margin: 10px 20px;

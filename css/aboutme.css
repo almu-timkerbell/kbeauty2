@@ -116,14 +116,20 @@ color: #4ab265 !important;
 
 h2{
 	text-align: center;
+	font-family: 'Handlee';
+}
+
+.history, .whyKOB, .currentphilosophy{
+	font-family: 'Handlee';
+	font-size: 16px;
 }
 
 .text{
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 10px;
-	font-family: 'Handlee';
-	font-size: 17px;
+	font-family:  "Helvetica Neue";
+	font-size: 15px;
 
 
 }
@@ -131,6 +137,7 @@ h2{
 .primerP{
 	text-align: center;
 	font-size: larger;
+	font-family: 'Handlee';
 }
 
 
