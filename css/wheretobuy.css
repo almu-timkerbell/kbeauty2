@@ -9,9 +9,9 @@ font-family:  'Handlee' ;
 
 }
 
-.row{
+.row1{
 position: relative;
-height: 150px;
+max-height: 150px;
 
 }
 
@@ -40,7 +40,7 @@ left: 25%;
 }	
 
 
-img{
+.buttonHome img{
 max-width: 100px;
 max-height: 100px;
 margin: 0px;
@@ -186,7 +186,7 @@ h2{
 		display: none;
 	}
 
-	.logo{
+	.buttonHome img{
 		display: none;
     }
     

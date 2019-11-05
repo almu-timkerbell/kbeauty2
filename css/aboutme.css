@@ -11,9 +11,9 @@ font-family:  'Handlee'; /*'Indie Flower';*/
 
 }
 
-.row{
+.row1{
 	position: relative;
-	height: 150px;
+	max-height: 150px;
 	margin: 10px 0px 50px 0px;
 	
 	}
@@ -44,7 +44,7 @@ left: 25%;
 }	
 
 
-img{
+.buttonHome img{
 max-width: 100px;
 max-height: 100px;
 margin: 0px;
