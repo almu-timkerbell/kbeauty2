@@ -13,7 +13,7 @@ font-family:  'Handlee'; /*'Indie Flower';*/
 
 .row{
 	position: relative;
-	height: 150px;
+	/* height: 150px; */
 	margin: 10px 0px 50px 0px;
 	
 	}
@@ -27,8 +27,8 @@ font-family:  'Handlee'; /*'Indie Flower';*/
 	border: none;
 	background: none;
 	position: relative;
-	top: 50px;
-	left: 30px;	
+	top: 10px;
+	left: 15px;	
    }
 
 h1{
@@ -38,7 +38,7 @@ font-variant: small-caps;
 letter-spacing: 3px;
 display: inline;
 position: absolute;
-top: 75px;
+top: 25px;
 left: 25%;
 
 }	
@@ -54,7 +54,7 @@ padding: 0px;
 .navbar{
 color: #F4FFC5;
 background-color: #f3ddff;
-margin: 35px 22px 20px 30px;
+margin: 55px 22px 20px 30px;
 font-size: 20px;
 font-family: 'Handlee';
 border-style: solid;

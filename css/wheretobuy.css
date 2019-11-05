@@ -34,7 +34,7 @@ font-variant: small-caps;
 letter-spacing: 3px;
 display: inline;
 position: absolute;
-top: 50px;
+top: 45px;
 left: 25%;
 
 }	
@@ -50,7 +50,7 @@ padding: 0px;
 .navbar{
 color: #F4FFC5;
 background-color: #f3ddff;
-margin: 20px 20px !important;
+margin: 25px 22px 20px 30px;;
 font-size: 20px;
 font-family: 'Handlee';
 border-style: solid;
@@ -186,14 +186,26 @@ h2{
 		display: none;
 	}
 
+	.animacion{
+		display: none;
+	}
+
+	.buttonHome{
+		display: none;
+	}
+
+	.img{
+		display: none;
+	}
+
 	.logo{
 		display: none;
     }
     
     h1{
 		position: relative;
-		top:0;
-		left: 10%;
+		top: 10px;
+		left: 8%;
 	}
 } 
 
