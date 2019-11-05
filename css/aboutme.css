@@ -11,9 +11,13 @@ font-family:  'Handlee'; /*'Indie Flower';*/
 
 }
 
-.row{
+.row1{
 	position: relative;
+<<<<<<< HEAD
 	/* height: 150px; */
+=======
+	max-height: 150px;
+>>>>>>> a5e40a984f89e13e34673ea045ceca4650cd92a3
 	margin: 10px 0px 50px 0px;
 	
 	}
@@ -44,7 +48,7 @@ left: 25%;
 }	
 
 
-img{
+.buttonHome img{
 max-width: 100px;
 max-height: 100px;
 margin: 0px;
