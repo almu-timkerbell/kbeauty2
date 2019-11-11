@@ -167,7 +167,14 @@ h2{
 
 .history, .whyKOB, .currentphilosophy{
 	font-family: 'Handlee';
-	font-size: 16px;
+    font-size: 16px;
+    background-color: #f3ddff;
+    color: black;
+    max-width: 150px; 
+}
+
+.currentphilosophy{
+    max-width: 200px;
 }
 
 .text{
@@ -223,5 +230,12 @@ h2{
 
 .ingredientsPrincipalSection{
     margin: 20px;
+    padding: 20px;
+}
+
+h6{
+    background-color: #f3ddff;
+    color: black;
+    max-width: 15px;
 }
 
