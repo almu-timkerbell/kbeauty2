@@ -239,3 +239,15 @@ h6{
     max-width: 15px;
 }
 
+/*CSS/CLASSES FOR THE POSTS PAGE*/
+
+.h3Detail{
+    font-family: 'Handlee';
+}
+
+.startDescribe{
+    background-color: #f3ddff;
+    color: black;
+    max-width: 150px;
+    
+}
